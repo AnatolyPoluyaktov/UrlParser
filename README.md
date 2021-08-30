@@ -52,7 +52,7 @@ ALTER ROLE myprojectuser SET timezone TO 'UTC';
 | GET      | http://127.0.0.1:8000/admin/api/results/id=task_id      |  количество уникальных и вложенных html тегов на странице |
 
 
-#Примеры
+## Примеры
 
 
 ![изображение](https://user-images.githubusercontent.com/41837845/131410286-c566209b-a701-40e6-a179-1de86bc0e176.png)
