@@ -23,7 +23,7 @@ def url_parse(url: str, id:str) -> dict:
             val['count'] += 1
             val['nested'] += nested
             d[i.name] = val
-            save_item(id, d)
+        save_item(id, d)
     except requests.exceptions.RequestException as e:
         d = {'error': e}
         save_item(id, d)
